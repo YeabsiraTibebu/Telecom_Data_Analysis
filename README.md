@@ -5,10 +5,10 @@
 **Task-1:
 Overview of the user's behavior on those applications:**
   1. Aggregate per-user information in the column
-      a. Number of xDR(data sessions Detail Record) 
-      b. Session duration 
-      c. Total download and upload data
-      d. Total data volume (in Bytes) during the session for each application
+      Number of xDR(data sessions Detail Record), 
+      Session duration, 
+      Total download and upload data,
+      Total data volume (in Bytes) during the session for each application
   2. Conduct an EDA on those data and communicate useful insights.
 
 **Task-2:
