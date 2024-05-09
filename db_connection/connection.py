@@ -39,8 +39,7 @@ class PostgresConnection:
             self.conn.close()
             print("Connection closed.")
             
-# Example usage:
-# Replace dbname, user, password with your actual database credentials
+
 db = PostgresConnection(dbname='postgres', user='postgres', password='postgres')
 db.connect()
 
