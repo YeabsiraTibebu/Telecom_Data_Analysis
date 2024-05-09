@@ -1,1 +1,4 @@
-
+pandas
+dotenv
+psycopg2
+sqlalchemy
