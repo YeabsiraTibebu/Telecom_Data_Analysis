@@ -43,13 +43,11 @@ class PostgresConnection:
 db = PostgresConnection(dbname='postgres', user='postgres', password='postgres')
 db.connect()
 
-# Example query
+
 query = "SELECT * FROM xdr_data"
 result = db.execute_query(query)
 
-# Convert the result to a Pandas DataFrame
-df = pd.DataFrame(result, columns=[desc[0] for desc in db.cursor.description])
-print(df.head())  # Display the first few rows of the DataFrame
 
-# Close the connection when done
+df = pd.DataFrame(result, columns=[desc[0] for desc in db.cursor.description])
+
 db.close_connection()
