@@ -26,7 +26,7 @@ This section focuses on network parameters like TCP retransmission, Round Trip T
   3. Compute & report the distribution of the average throughput, and average TCP retransmission view per handset type and provide interpretation.
   4. Using the experience metrics above, perform a k-means clustering (where k = 3) to segment users into groups of experiences and provide a brief description of each cluster.
 
-**Task-4**
+**Task-4:
 This section is to analyze customer satisfaction in depth. assuming that the satisfaction of a user is dependent on user engagement and experience.**
   1. Write a Python program to assign an engagement score to each user. Consider the engagement score as the Euclidean distance between the user data point & the less engaged cluster.
   2. Experience score for each user. Consider the experience score as the Euclidean distance between the user data point & the worst experience cluster.
